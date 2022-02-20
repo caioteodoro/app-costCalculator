@@ -9,25 +9,51 @@
 /* Begin PBXBuildFile section */
 		6B281A6224E38F580047B3F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B281A6124E38F580047B3F5 /* AppDelegate.swift */; };
 		6B281A6424E38F580047B3F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B281A6324E38F580047B3F5 /* SceneDelegate.swift */; };
-		6B281A6624E38F580047B3F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B281A6524E38F580047B3F5 /* ViewController.swift */; };
+		6B281A6624E38F580047B3F5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B281A6524E38F580047B3F5 /* MainVC.swift */; };
 		6B281A6924E38F580047B3F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B281A6724E38F580047B3F5 /* Main.storyboard */; };
 		6B281A6B24E38F580047B3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B281A6A24E38F580047B3F5 /* Assets.xcassets */; };
 		6B281A6E24E38F580047B3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B281A6C24E38F580047B3F5 /* LaunchScreen.storyboard */; };
+		6B281A7824E38FC40047B3F5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B281A7724E38FC40047B3F5 /* CustomTextField.swift */; };
+		6B32BAEF24EE1D8E007D768F /* Cost_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B32BAEE24EE1D8E007D768F /* Cost_CalculatorTests.swift */; };
+		6B32BAF824EE1DB8007D768F /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B32BAF724EE1DB8007D768F /* Wage.swift */; };
+		6B32BAF924EE1F02007D768F /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B32BAF724EE1DB8007D768F /* Wage.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B32BAF124EE1D8E007D768F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B281A5624E38F570047B3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B281A5D24E38F580047B3F5;
+			remoteInfo = "Cost Calculator";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6B281A5E24E38F580047B3F5 /* Cost Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cost Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B281A6124E38F580047B3F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B281A6324E38F580047B3F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6B281A6524E38F580047B3F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B281A6524E38F580047B3F5 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		6B281A6824E38F580047B3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B281A6A24E38F580047B3F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B281A6D24E38F580047B3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B281A6F24E38F580047B3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B281A7724E38FC40047B3F5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		6B32BAEC24EE1D8E007D768F /* Cost CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cost CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B32BAEE24EE1D8E007D768F /* Cost_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cost_CalculatorTests.swift; sourceTree = "<group>"; };
+		6B32BAF024EE1D8E007D768F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B32BAF724EE1DB8007D768F /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6B281A5B24E38F580047B3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B32BAE924EE1D8E007D768F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				6B281A6024E38F580047B3F5 /* Cost Calculator */,
+				6B32BAED24EE1D8E007D768F /* Cost CalculatorTests */,
 				6B281A5F24E38F580047B3F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				6B281A5E24E38F580047B3F5 /* Cost Calculator.app */,
+				6B32BAEC24EE1D8E007D768F /* Cost CalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +84,50 @@
 		6B281A6024E38F580047B3F5 /* Cost Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				6B32BAF624EE1DA3007D768F /* Model */,
+				6B281A7624E38F750047B3F5 /* View */,
+				6B281A7524E38F620047B3F5 /* Controller */,
 				6B281A6124E38F580047B3F5 /* AppDelegate.swift */,
 				6B281A6324E38F580047B3F5 /* SceneDelegate.swift */,
-				6B281A6524E38F580047B3F5 /* ViewController.swift */,
 				6B281A6724E38F580047B3F5 /* Main.storyboard */,
 				6B281A6A24E38F580047B3F5 /* Assets.xcassets */,
 				6B281A6C24E38F580047B3F5 /* LaunchScreen.storyboard */,
 				6B281A6F24E38F580047B3F5 /* Info.plist */,
 			);
 			path = "Cost Calculator";
+			sourceTree = "<group>";
+		};
+		6B281A7524E38F620047B3F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B281A6524E38F580047B3F5 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B281A7624E38F750047B3F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B281A7724E38FC40047B3F5 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B32BAED24EE1D8E007D768F /* Cost CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B32BAEE24EE1D8E007D768F /* Cost_CalculatorTests.swift */,
+				6B32BAF024EE1D8E007D768F /* Info.plist */,
+			);
+			path = "Cost CalculatorTests";
+			sourceTree = "<group>";
+		};
+		6B32BAF624EE1DA3007D768F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B32BAF724EE1DB8007D768F /* Wage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +150,24 @@
 			productReference = 6B281A5E24E38F580047B3F5 /* Cost Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6B32BAEB24EE1D8E007D768F /* Cost CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B32BAF524EE1D8E007D768F /* Build configuration list for PBXNativeTarget "Cost CalculatorTests" */;
+			buildPhases = (
+				6B32BAE824EE1D8E007D768F /* Sources */,
+				6B32BAE924EE1D8E007D768F /* Frameworks */,
+				6B32BAEA24EE1D8E007D768F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B32BAF224EE1D8E007D768F /* PBXTargetDependency */,
+			);
+			name = "Cost CalculatorTests";
+			productName = "Cost CalculatorTests";
+			productReference = 6B32BAEC24EE1D8E007D768F /* Cost CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +180,10 @@
 				TargetAttributes = {
 					6B281A5D24E38F580047B3F5 = {
 						CreatedOnToolsVersion = 11.5;
+					};
+					6B32BAEB24EE1D8E007D768F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6B281A5D24E38F580047B3F5;
 					};
 				};
 			};
@@ -116,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				6B281A5D24E38F580047B3F5 /* Cost Calculator */,
+				6B32BAEB24EE1D8E007D768F /* Cost CalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +217,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6B32BAEA24EE1D8E007D768F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,13 +231,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B281A6624E38F580047B3F5 /* ViewController.swift in Sources */,
+				6B281A7824E38FC40047B3F5 /* CustomTextField.swift in Sources */,
+				6B281A6624E38F580047B3F5 /* MainVC.swift in Sources */,
+				6B32BAF824EE1DB8007D768F /* Wage.swift in Sources */,
 				6B281A6224E38F580047B3F5 /* AppDelegate.swift in Sources */,
 				6B281A6424E38F580047B3F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6B32BAE824EE1D8E007D768F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B32BAEF24EE1D8E007D768F /* Cost_CalculatorTests.swift in Sources */,
+				6B32BAF924EE1F02007D768F /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B32BAF224EE1D8E007D768F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B281A5D24E38F580047B3F5 /* Cost Calculator */;
+			targetProxy = 6B32BAF124EE1D8E007D768F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6B281A6724E38F580047B3F5 /* Main.storyboard */ = {
@@ -316,6 +428,46 @@
 			};
 			name = Release;
 		};
+		6B32BAF324EE1D8E007D768F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V49984Y37Q;
+				INFOPLIST_FILE = "Cost CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teodoro.Cost-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cost Calculator.app/Cost Calculator";
+			};
+			name = Debug;
+		};
+		6B32BAF424EE1D8E007D768F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V49984Y37Q;
+				INFOPLIST_FILE = "Cost CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teodoro.Cost-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cost Calculator.app/Cost Calculator";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +485,15 @@
 			buildConfigurations = (
 				6B281A7324E38F580047B3F5 /* Debug */,
 				6B281A7424E38F580047B3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B32BAF524EE1D8E007D768F /* Build configuration list for PBXNativeTarget "Cost CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B32BAF324EE1D8E007D768F /* Debug */,
+				6B32BAF424EE1D8E007D768F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
